@@ -1,0 +1,50 @@
+{
+  "name": "react-truffle",
+  "version": "0.0.1",
+  "description": "Provider and HOCs for web3 and truffle contracts.",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevor-scheer/react-truffle.git"
+  },
+  "keywords": [
+    "react",
+    "ethereum",
+    "web3",
+    "truffle",
+    "contract",
+    "blockchain"
+  ],
+  "author": "Trevor Scheer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevor-scheer/react-truffle/issues"
+  },
+  "homepage": "https://github.com/trevor-scheer/react-truffle#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "truffle-contract": "^3.0.1",
+    "web3": "^1.0.0-beta.26"
+  },
+  "babel": {
+    "presets": ["react", "env"]
+  },
+  "main": "dist/react-truffle.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^22.1.4",
+    "prettier": "^1.9.2",
+    "react-test-renderer": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}
