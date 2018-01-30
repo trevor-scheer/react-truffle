@@ -1,6 +1,6 @@
 {
   "name": "react-truffle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provider and HOCs for web3 and truffle contracts.",
   "scripts": {
     "test": "jest",
